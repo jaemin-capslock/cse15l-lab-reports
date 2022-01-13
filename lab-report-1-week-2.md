@@ -5,6 +5,9 @@
 
 _Thank you **HDH** senpai!_
 
+---
+> That's a bit sus, sir.
+
 [Link](https://github.com/jaemin-capslock)
 
 # Heading 1
@@ -21,3 +24,6 @@ _Thank you **HDH** senpai!_
 
 
 `for i in range(5)`
+```
+System.out.println("Lol")
+```
