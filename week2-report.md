@@ -12,6 +12,8 @@ Click the Download button to get the version that fits your operating system. Th
 
 [1]:VSCodescreen.png
 
+## Remotely Connecting
+
 After installing, now we can proceed on remotely connecting to the school server! Let's (finally) make our tuitions a bit more worth.
 
 First, open the terminal attached to your VSCode. You should see it at the menu bar on the top of your screen, and it should look like this:
@@ -31,6 +33,8 @@ Replace the `zz` with your issued ID. Enter your UCSD password when it prompts t
 ![Image][3]
 
 [3]:terminalscreen2.png
+
+## Trying Some Commands
 
 Alright, now let's try out some commands that we've covered in the class! Let's see what files are here in this server with `ls`.
 
@@ -53,6 +57,8 @@ Woah, now we are seeing a lot of files here! Impressive. Now, let's try making a
 
 Now we can see a folder that we've created named `bobcat`. (It's still a cat!)
 
+## Moving Files with scp
+
 Awesome. Now let's try copying a file to our server. This can be done by the `scp` command. Create any file, and enter this command:
 
 ![Image][7]
@@ -62,8 +68,10 @@ Awesome. Now let's try copying a file to our server. This can be done by the `sc
 
 The format is `scp filename cse15lwi22zz@ieng6.ucsd.edu:~/`. After copying the file, I ssh'ed to the server and used ls command. Notice that now the server has my `hi.txt` file. 
 
+## Setting an SSH key
 
 Not a huge fan of entering passwords everytime? We have a very convenient solution - ssh keys! 
+
 
 Log out from your server, and on the terminal, type `ssh-keygen` to generate your own pair of ssh keys. Save the key at `Users/Name/.ssh/id_rsa`. 
 
@@ -78,6 +86,7 @@ Alright, let's try logging in:
 
 Notice the lack of the password: now we can log in easily!
 
+## Optimizing Remote Running
 
 Using this, let's optimize our command line input. First, notice that by using the arrow keys in your keyboard, you can easily load previous commands - this will help you save a lot of time.
 
