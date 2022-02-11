@@ -8,14 +8,9 @@
 
 File :
 
-```
-# This test file will break the code
+[Error file](https://github.com/jaemin-capslock/markdown-parse/blob/main/test-file-3.md)
 
-Sometimes I want to create some mayhem.
-So lets take a look at this matrix: `[a b c d]`(but not really). It is a cool matrix.
-
-
-```
+![23](symptom1.png)
 
 This file caused an error when it ran, because it did not contain any links inside of it; Thus the while loop had no stopping condition and remained in an infinite loop.
 
@@ -25,16 +20,8 @@ This file caused an error when it ran, because it did not contain any links insi
 ![4](Change2.png)
 
 File :
-```
-# This test file will break the code
 
-Sometimes I want to create some mayhem.
-So lets take a look at this matrix: `[a b c d](but not really)`. It is a cool matrix.
-
-[Hello World](https://www.google.com)
-
-There's More.
-```
+[Error file2](https://github.com/jaemin-capslock/markdown-parse/blob/main/test-file-2.md)
 
 Symptom :
 ![5](Symptom2.png)
@@ -46,10 +33,8 @@ This file caused an error, where it now thinks that the "but not really" is actu
 ![6](FileChange3.png)
 
 File :
-```
-}[
 
-```
+[Error file 3](https://github.com/jaemin-capslock/markdown-parse/blob/main/test-file7.md)
 
 Symptom:
 
