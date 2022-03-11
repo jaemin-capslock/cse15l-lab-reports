@@ -4,19 +4,19 @@
 
 ![Image][1]
 
-[1]:file1expected.png
+[1]:file1newexpected.png
 
-This is the expected output of this markdown file, and thus we have four links
+This is the expected output of this markdown file, and thus we have three markdown links.
 
 Running on my testfile,
 
 ![Image][2]
 
-[2]:mytestfile1.png
+[2]:mynewtest1.png
 
 ![Image][3]
 
-[3]:myresult1.png
+[3]:mynewresult1.png
 
 The test fails.
 
@@ -24,11 +24,11 @@ Running on the other's implementation,
 
 ![Image][4]
 
-[4]:theirtestfile1.png
+[4]:theirnewtest1.png
 
 ![Image][5]
 
-[5]:theirresult1.png
+[5]:theirnewresult1.png
 
 The test also fails. But notice that the produced output is different.
 
@@ -42,28 +42,28 @@ On their file, on the other hand, the acutal output only varies by one backtick.
 
 ![Image][6]
 
-[6]:file2expected.png
+[6]:file2newexpected.png
 
 Running on my test file,
 
 ![Image][7]
 
-[7]:mytestfile2.png
+[7]:mynewtest2.png
 
 ![Image][8]
 
-[8]:myresult2.png
+[8]:mynewresult2.png
 
 
 Running on their test file,
 
 ![Image][9]
 
-[9]:theirtestfile2.png
+[9]:theirnewtest2.png
 
 ![Image][10]
 
-[10]:theirresult2.png
+[10]:theirnewresult2.png
 
 
 ## Fixable?
@@ -76,27 +76,27 @@ The main issue that it does not work in our group's file, as well as theirs, is 
 
 ![Image][11]
 
-[11]:file3expected.png
+[11]:file3newexpected.png
 
 Running on my test file,
 
 ![Image][12]
 
-[12]:mytestfile3.png
+[12]:mynewtest3.png
 
 ![Image][13]
 
-[13]:myresult3.png
+[13]:mynewresult3.png
 
 Running on their test file,
 
 ![Image][14]
 
-[14]:theirtestfile3.png
+[14]:theirnewtest3.png
 
 ![Image][15]
 
-[15]:theirresult3.png
+[15]:theirnewresult3.png
 
 
 ## Fixable?
